@@ -1,0 +1,21 @@
+.expense-form-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 1.2rem auto;
+}
+.expense-form-control label {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.expense-form-control select {
+  padding: 0.3rem 1.2rem;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: bold;
+}
